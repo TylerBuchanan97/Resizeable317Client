@@ -518,7 +518,7 @@ public final class Client extends GameApplet {
 	private boolean oriented;
 	private Buffer outgoing;;
 	private int packetSize;
-	private String password = "testing";
+	private String password = "";
 	private int plane;
 	private int playerCount;
 	private DirectSprite playerMapdot;
@@ -576,7 +576,7 @@ public final class Client extends GameApplet {
 	private int tradeChatMode;
 	private boolean unableToLoad;
 	private int unreadMessageCount;
-	private String username;
+	private String username = "";
 	private boolean validLocalMap;
 	private int[] waypointX = new int[4000];
 	private int[] waypointY = new int[4000];
